@@ -1,27 +1,17 @@
 ---
-title: "A more advanced example"
+title: "A real device"
 date: 2019-09-05T23:06:51+08:00
 draft: false
-chapter: true
-weight: 30
+chapter: false
+weight: 40
 ---
 
-
     
-Now that you know the basics on how to create Alexa Smart Home skills, and how to use AWS IoT to control the devices,
-let's look at a more advance implementation.
-We will reuse the same Alexa Skill you have created in the [previous lab](/30-smart-home/4.create-skill/) but we will plug-in a new backend.
+Now that you know the basics on how to create Alexa Smart Home skills, and how to control simulated devices, let's control a real device. 
 
 In this lab you will:
 
-* Deploy a new generic Alexa Smart Home backend
-* Implement a new Companion App that uses the new backend
-* Reconfigure the existing device to use the new backend
+* Install and configure the ESP32 toolchain 
+* Compile and install a microcontroller firmware based on [Amazon FreeRTOS](https://aws.amazon.com/freertos/)
+* Modify the firmware so that the ESP32 can respond to Alexa directives
 
-
-![](/images/smart-home/alexa-workshop-arch.jpg)
-
-
-## Steps
-
-{{% children %}}
