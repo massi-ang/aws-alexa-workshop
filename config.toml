@@ -1,4 +1,4 @@
-baseURL = "https://alexaworkshop.com/"
+baseURL = "http://alexa-iot-workshop.s3-website-eu-west-1.amazonaws.com"
 ignoreFiles = [ "\\.files/README.md$",  ]
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -17,7 +17,7 @@ URL = "s3://alexa-iot-workshop?region=eu-west-1"
   hrefTargetBlank = true
 
 [params]
-editURL = "https://github.com/aws-samples/aws-alexa-workshop/edit/master/content/"
+editURL = "https://github.com/aws-samples/aws-alexa-workshop/edit/smarthome-en/content/"
 themeVariant = "mine"
 showVisitedLinks = false
 author = "Massimiliano Angelino from Joe SHI work"
@@ -25,7 +25,7 @@ description = "AWS & Alexa Workshop"
 disableSearch = false
 disableAssetsBusting = false
 disableShortcutsTitle = true
-branch = "master"
+branch = "smarthome-en"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -34,12 +34,12 @@ pygmentsStyle = "tango"
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub Project"
-url = "https://github.com/aws-samples/aws-alexa-workshop"
+url = "https://github.com/massi-ang/aws-alexa-workshop/tree/smarthome-en"
 weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> Have questions?"
-url = "https://github.com/aws-samples/aws-alexa-workshop/issues"
+url = "https://github.com/massi-ang/aws-alexa-workshop/issues"
 weight = 40
 
 [Languages]
