@@ -8,6 +8,11 @@ uglyurls = false
 sectionPagesMenu = "main"
 relativeURLs = true
 
+[deployment]
+
+[[deployment.targets]]
+URL = "s3://alexa-iot-workshop?region=eu-west-1"
+
 [blackfriday]
   hrefTargetBlank = true
 
@@ -15,7 +20,7 @@ relativeURLs = true
 editURL = "https://github.com/aws-samples/aws-alexa-workshop/edit/master/content/"
 themeVariant = "mine"
 showVisitedLinks = false
-author = "Joe SHI"
+author = "Massimiliano Angelino from Joe SHI work"
 description = "AWS & Alexa Workshop"
 disableSearch = false
 disableAssetsBusting = false

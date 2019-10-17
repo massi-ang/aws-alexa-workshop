@@ -2,6 +2,7 @@
 title: "AWS IoT & Alexa Workshop"
 chapter: true
 weight: 1
+hidden: true
 ---
 
 <div style="text-align: center"><h2>AWS IoT & Alexa Workshop</h2></div>
